@@ -1,0 +1,9 @@
+//date:2018-5-3
+//author:zhehong
+
+学习python的时候有讲到尾递归，ruan老师这篇文章讲的特别清楚，有关尾调用和尾递归的解释。贴上原文链接，尊重原创。
+I can't understand the essence of tail-call when I learn python,so I look for many essays and articles and I find that the interpritation of
+RuanYifeng's blogs　about it is the best!Thus ,Share it,bravo！
+
+http://www.ruanyifeng.com/blog/2015/04/tail-call.html
+
