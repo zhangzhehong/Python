@@ -1,0 +1,28 @@
+//date:2018-5-4
+//author:zhehong
+
+利用生成器打印杨辉三角
+
+def triangles(max)
+　　 last = []
+     n = 0
+     while max > n:
+         n = n + 1
+         if last==[]:
+             temp=[1]
+         elif n == 2:
+             temp = [1,1]
+         else:
+             temp=[]
+             temp.append(1)
+             for i in range(len(last)-1)
+             　　　temp.append(last[i]+last[i+1])
+             temp.append(1)
+         last = list(temp)
+         yield last
+         
+for t in triangles(10):print(t)
+
+#END
+             
+    
